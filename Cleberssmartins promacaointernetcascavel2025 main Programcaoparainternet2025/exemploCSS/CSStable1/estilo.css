@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin:0 ;
+  padding: 0;
+}
+
+:root{
+  --azul-escuro: #0D5188;
+  --azul-médio: #66C5E3;
+  --azul-claro: #C7E7F3;
+}
+
+body{
+  height:100%;
+  display: flex;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+table{
+  text-align: center;
+  width: 600px;
+}
+
+.Titulo{
+background-color: #0d5188;
+color: white;
+}
+.cidade{
+  background-color: var(--azul-claro);
+  color: var(--azul-escuro);
+  font-weight: bold;
+  text-align: left;
+}
+.numeros1{
+  background-color:silver ;
+}
+.subtitulo{
+  text-align: center;
+  font-weight: bold ;
+  background-color: var(--azul-médio);
+}
+
+.subtitulo-C{
+  text-align: left;
+  background-color: var(--azul-médio);
+  font-weight: bold;
+}
+.populacao{
+  background-color: var(--azul-claro);
+}
+.numeros{
+  background-color: var(--azul-claro);
+}
+
