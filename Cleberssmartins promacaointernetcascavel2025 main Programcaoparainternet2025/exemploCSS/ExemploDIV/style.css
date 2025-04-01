@@ -1,0 +1,56 @@
+div{
+  width: 400px;
+  height: 300px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divAlignCenter{
+background-color: red;
+margin: 0 auto;
+}
+
+.divAlignRight{
+background-color: purple;
+float: right;
+}
+
+.divAlignLeft{
+background-color: gray;
+float: left;
+} 
+ 
+.divsticky{
+  background-color: green;
+  position: sticky;
+  top: 100px;
+  left: 400px;
+}
+
+.divrelative{
+  background-color: yellow;
+  position: relative;
+  top: 120px;
+  left: 800px;
+}
+
+.divfixed{
+  background-color: aquamarine;
+  position: fixed;
+  top: 200px;
+  left: 200px;
+}
+
+.divstatic{
+  background-color: brown;
+  position: static;
+  top: 300px;
+  left: 300px;
+}
+
+.divabsolute{
+  background-color: aqua;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
