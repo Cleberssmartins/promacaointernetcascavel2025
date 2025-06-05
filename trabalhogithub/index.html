@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+      <div class="logo">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </div>
+      <div class="usuario">
+        <span>👤 Meu Perfil</span>
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- Barra Lateral -->
+      <aside class="barra-lateral">
+        <h3>Meus Repositórios</h3>
+        <div class="lista-repos">
+          <!-- Projetos na barra lateral -->
+          <div
+            class="item-repo"
+            onclick="abrirProjeto('https://meu-projeto1.com')"
+          >
+            📁 Calculadora JavaScript
+          </div>
+          <div
+            class="item-repo"
+            onclick="abrirProjeto('http://127.0.0.1:5500/Programcaoparainternet2025/index.html')"
+          >
+            📁 Mercadinho
+          </div>
+          <div
+            class="item-repo"
+            onclick="abrirProjeto('https://meu-projeto3.com')"
+          >
+            📁 Lista de Tarefas
+          </div>
+        </div>
+      </aside>
+
+      <!-- Conteúdo Principal -->
+      <main class="conteudo-principal">
+        <!-- Título -->
+        <div class="titulo-secao">
+          <h1>Projeto Segundo Bimestre</h1>
+          <p>Aqui estão os projetos de programação</p>
+        </div>
+
+        <!-- Grade de Projetos -->
+        <div class="grade-projetos">
+          <!-- Projeto 1 -->
+          <div
+            class="cartao-projeto"
+            onclick="abrirProjeto('https://meu-projeto1.com')"
+          >
+            <div class="cabecalho-projeto">
+              <a
+                href="https://meu-projeto1.com"
+                class="nome-projeto"
+                target="_blank"
+              >
+                Calculadora JavaScript
+              </a>
+              <span class="linguagem">JavaScript</span>
+            </div>
+            <p class="descricao-projeto">
+              Uma calculadora simples feita com HTML, CSS e JavaScript
+            </p>
+            <div class="info-projeto">
+              <div class="estrelas">⭐ 5</div>
+              <div class="data-atualizacao">📅 2 dias atrás</div>
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div
+            class="cartao-projeto"
+            onclick="abrirProjeto('https://meu-projeto2.com')"
+          >
+            <div class="cabecalho-projeto">
+              <a
+                href="https://meu-projeto2.com"
+                class="nome-projeto"
+                target="_blank"
+              >
+                Jogo da Velha
+              </a>
+              <span class="linguagem">JavaScript</span>
+            </div>
+            <p class="descricao-projeto">
+              Jogo da velha interativo com JavaScript vanilla
+            </p>
+            <div class="info-projeto">
+              <div class="estrelas">⭐ 8</div>
+              <div class="data-atualizacao">📅 1 semana atrás</div>
+            </div>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div
+            class="cartao-projeto"
+            onclick="abrirProjeto('https://meu-projeto3.com')"
+          >
+            <div class="cabecalho-projeto">
+              <a
+                href="https://meu-projeto3.com"
+                class="nome-projeto"
+                target="_blank"
+              >
+                Lista de Tarefas
+              </a>
+              <span class="linguagem">HTML</span>
+            </div>
+            <p class="descricao-projeto">
+              Aplicativo de lista de tarefas com localStorage
+            </p>
+            <div class="info-projeto">
+              <div class="estrelas">⭐ 12</div>
+              <div class="data-atualizacao">📅 3 dias atrás</div>
+            </div>
+          </div>
+
+          <!-- Projeto 4 -->
+          <div
+            class="cartao-projeto"
+            onclick="abrirProjeto('https://meu-projeto4.com')"
+          >
+            <div class="cabecalho-projeto">
+              <a
+                href="https://meu-projeto4.com"
+                class="nome-projeto"
+                target="_blank"
+              >
+                Galeria de Fotos
+              </a>
+              <span class="linguagem">CSS</span>
+            </div>
+            <p class="descricao-projeto">
+              Galeria de fotos responsiva com efeitos CSS
+            </p>
+            <div class="info-projeto">
+              <div class="estrelas">⭐ 6</div>
+              <div class="data-atualizacao">📅 5 dias atrás</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
