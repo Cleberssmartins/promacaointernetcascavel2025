@@ -1,0 +1,107 @@
+.titulo {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8a2be2;
+}
+
+.subtitulo {
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c39bd3;
+  font-size: 18px;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.input {
+  padding: 12px;
+  margin: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a2a3e;
+  color: #e6e6e6;
+  font-size: 16px;
+  border: 2px solid #8a2be2;
+  width: 200px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #7b1fa2;
+  box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+}
+
+.button {
+  background-color: #8a2be2;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  padding: 18px;
+  margin: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #7b1fa2;
+  transform: translateY(-2px);
+}
+
+.resultado {
+  display: block;
+  margin: 20px auto;
+  width: 320px;
+  background-color: #3a3a4e;
+  border: 2px solid #8a2be2;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  min-height: 20px;
+}
+
+.info {
+  display: block;
+  margin: 20px auto;
+  width: 320px;
+  background-color: #2a2a3e;
+  border: 2px solid #8a2be2;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#resultado, #clas {
+  color: #8a2be2;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h3, h4 {
+  color: #8a2be2;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 8px 0;
+  color: #e6e6e6;
+}

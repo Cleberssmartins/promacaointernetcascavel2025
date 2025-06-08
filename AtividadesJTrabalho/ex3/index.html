@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Impostos DETRAN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+    <h1 class="titulo">Calculadora de Impostos DETRAN</h1>
+    <p class="subtitulo">Calcule a taxa de transferência do seu veículo</p>
+    
+    <div class="form-group">
+        <label for="ano">Ano de Fabricação:</label>
+        <input type="number" id="ano" class="input" placeholder="Ex: 1995">
+    </div>
+    
+    <div class="form-group">
+        <label for="valor">Valor de Tabela (R$):</label>
+        <input type="number" id="valor" class="input" placeholder="Ex: 25000" step="0.01">
+    </div>
+    
+    <button onclick="calcImposto()" class="button">Calcular Imposto</button>
+    
+    <div class="resultado">
+        <h3>Resultado:</h3>
+        <p>Imposto a pagar: R$ <span id="resultado">0,00</span></p>
+        <p>Taxa aplicada: <span id="clas">Preencha os dados acima</span></p>
+    </div>
+    
+    <div class="info">
+        <h4>Informações:</h4>
+        <p>• Carros anteriores a 1990: 1%</p>
+        <p>• Carros de 1990 em diante: 1,5%</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
